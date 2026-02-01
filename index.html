@@ -1,0 +1,74 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Petro Bros. Excavating | Northeast Ohio & NW Pennsylvania Site Work</title>
+    <meta name="description" content="Reliable excavation and site work for residential and agricultural projects in NE Ohio and NW PA. Land clearing, drainage, driveways, ponds, and more.">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Montserrat:wght@700;800;900&display=swap" rel="stylesheet">
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        midnight: '#0F172A',
+                        kubota: '#F36D21',
+                        industrial: '#F8FAFC'
+                    },
+                    fontFamily: {
+                        montserrat: ['Montserrat', 'sans-serif'],
+                        inter: ['Inter', 'sans-serif']
+                    }
+                }
+            }
+        }
+    </script>
+    
+    <!-- JSON-LD LocalBusiness Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "Petro Bros. Excavating",
+      "description": "Reliable excavation and site work services for residential and agricultural projects across NE Ohio and NW PA.",
+      "areaServed": ["Northeast Ohio", "Northwest Pennsylvania"],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Excavation Services",
+        "itemListElement": [
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Land Clearing" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Drainage Solutions" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Driveway Installation" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Building Pads" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Finish Grading" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Ponds" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Custom Food Plots" } }
+        ]
+      }
+    }
+    </script>
+<script type="importmap">
+{
+  "imports": {
+    "lucide-react": "https://esm.sh/lucide-react@^0.563.0",
+    "react/": "https://esm.sh/react@^19.2.4/",
+    "react": "https://esm.sh/react@^19.2.4",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.4/"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+<body class="bg-industrial text-midnight font-inter overflow-x-hidden">
+    <div id="root"></div>
+<script type="module" src="/index.tsx"></script>
+</body>
+</html>
