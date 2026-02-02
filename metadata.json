@@ -1,5 +1,7 @@
 {
-  "name": "Petro Bros. Excavating Landing Page",
-  "description": "A professional, high-conversion landing page for Petro Bros. Excavating, featuring service details, a project estimator, and SEO-optimized architecture for heavy civil and residential excavation services.",
-  "requestFramePermissions": []
+  "name": "Petro Bros. Excavating - Local SEO Optimized",
+  "description": "Premium excavation landing page for Petro Bros. Excavating. Serving 9 counties across Northeast Ohio and Northwest Pennsylvania with land clearing, drainage, and site prep.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
 }
