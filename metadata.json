@@ -1,7 +1,5 @@
 {
   "name": "Petro Bros. Excavating - Local SEO Optimized",
   "description": "Premium excavation landing page for Petro Bros. Excavating. Serving 9 counties across Northeast Ohio and Northwest Pennsylvania with land clearing, drainage, and site prep.",
-  "requestFramePermissions": [
-    "geolocation"
-  ]
+  "requestFramePermissions": []
 }

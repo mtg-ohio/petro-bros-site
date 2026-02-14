@@ -355,11 +355,18 @@ const Contact = () => {
               <div className="bg-midnight p-8 md:p-12 border-r-8 border-kubota shadow-2xl">
                 <form 
                   name="contact" 
-                  method="POST" 
+                  method="POST"
+                  data-netlify="true"
+                  netlify-honeypot="bot-field"
                   onSubmit={handleSubmit}
                   className="grid grid-cols-1 md:grid-cols-2 gap-6"
                 >
                   <input type="hidden" name="form-name" value="contact" />
+                  <p className="hidden">
+                    <label>
+                      Don’t fill this out: <input name="bot-field" />
+                    </label>
+                  </p>
                   <div className="md:col-span-1">
                     <label className="block text-xs font-black uppercase tracking-widest text-slate-400 mb-2">Your Name</label>
                     <input type="text" name="name" required className="w-full bg-white/5 border-2 border-white/10 px-4 py-3 text-white focus:border-kubota focus:outline-none font-bold" placeholder="First & Last Name" />
